@@ -14,7 +14,7 @@ GEM
     execjs (2.6.0)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
-    hitimes (1.2.2)
+    hitimes (1.2.3)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -57,7 +57,7 @@ GEM
     redcarpet (3.3.2)
     safe_yaml (1.0.4)
     sass (3.4.18)
-    timers (4.0.1)
+    timers (4.0.4)
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
