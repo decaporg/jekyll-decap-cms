@@ -1,20 +1,15 @@
-# Jekyll + netlify CMS
+# Jekyll + Netlify CMS
 
-This is the basic Jekyll starter site, with netlify CMS integrated.
+This is the basic Jekyll starter site, with Netlify CMS integrated.
 
 ## Getting Started
-
-Clone this repository to your local machine, then download the relevant release of
-the [netlify-git-api](https://github.com/netlify/netlify-git-api/releases) CLI tool.
-
-CD into your new repo, and run:
 
 ```bash
 netlify-git-api users add
 netlify-git-api serve
 ```
 
-Then open a new terminal, CD into your new repo and run:
+Then open a new terminal, `cd` into your new repo and run:
 
 ```bash
 bundle install
@@ -30,9 +25,7 @@ To deploy to production, make sure to push this repository to a Github repo you 
 
 Then go to [netlify](https://app.netlify.com) and start a new project. Pick your
 new Github repository. Netlify should fill out the build command and public folder
-(`jekyll build` and `/_site`), but make sure you set an environment variable:
-
-`JEKYLL_ENV=production`
+(`jekyll build` and `/_site`).
 
 Build and deploy the site.
 
