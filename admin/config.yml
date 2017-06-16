@@ -1,13 +1,9 @@
-development:
-  backend:
-    name: netlify-api
-    url: http://localhost:8080
-
-production:
-  backend:
-    name: github-api
-    repo: owner/repo # Path to your Github repository
-    branch: master # Branch to update (master by default)
+backend:
+  name: github
+  repo: qgp9/jekyll-netlify-cms # Path to your Github repository
+  branch: master # Branch to update (master by default)
+ 
+publish_mode: editorial_workflow
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
