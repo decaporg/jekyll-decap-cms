@@ -36,6 +36,8 @@ Once you've setup the application, go back to netlify, navigate to the **Access*
 fill in your new Client ID and Client Secret in the Github Authentication Provider and check
 the **Enable GitHub** box.
 
+Update the `repo` field in `admin/config.yml` with the path to your repo.
+
 Now anybody with write access to your GitHub repository can log in at yoursite.netlify.com/admin
 and use the CMS.
 
