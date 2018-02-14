@@ -30,7 +30,7 @@ new Github repository. Netlify should fill out the build command and public fold
 Build and deploy the site.
 
 Now go to [the GitHub developer application screen](https://github.com/settings/developers)
-and **register new application**.
+and **register new application**. The Authorization callback URL you'll need to enter is `https://api.netlify.com/auth/done`. 
 
 Once you've setup the application, go back to netlify, navigate to the **Access** tab. Then
 fill in your new Client ID and Client Secret in the Github Authentication Provider and check
