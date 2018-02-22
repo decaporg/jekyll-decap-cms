@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: owner/repo # Path to your Github repository
+  name: git-gateway
   branch: master # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
