@@ -1,3 +1,5 @@
+[![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/netlify/netlifycms)
+
 # Jekyll + Netlify CMS with Netlify Identity
 
 This is the basic Jekyll starter site, with Netlify CMS integrated and using Netlify Identity for
