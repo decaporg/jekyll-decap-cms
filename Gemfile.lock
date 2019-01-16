@@ -68,7 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   concurrent-ruby (~> 1.1.1)
-  jekyll (~> 3.7)
+  jekyll (~> 3.8)
   jekyll-feed (~> 0.11)
   jekyll-seo-tag (~> 2.5)
   jekyll-sitemap (~> 1.2)
