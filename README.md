@@ -1,12 +1,6 @@
-[![](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/netlify/netlifycms)
+# Jekyll + Decap CMS with Netlify Identity
 
-# Jekyll + Netlify CMS with Netlify Identity
-
-> ⚠️ **Deprecation Notice** 🏳
->
-> We are focusing our resources on building new templates that help you build a better web, because of that we're deprecating this template. We care about the community so we propose if anyone wants to maintain or take stewardship over the project please contact us at [devexperience@netlify.com](mailto:devexperience@netlify.com). If you want to share anything with the team about this template, you can also fill out [this form](https://template-feedback.netlify.app/).
-
-This is the basic Jekyll starter site, with Netlify CMS integrated and using Netlify Identity for
+This is the basic Jekyll starter site, with Decap CMS integrated and using Netlify Identity for
 authentication.
 
 ## Getting started
@@ -20,7 +14,7 @@ This will setup everything needed for running the CMS:
 * A new repository in your GitHub account with the code
 * Full Continuous Deployment to Netlify's global CDN network
 * Control users and access with Netlify Identity
-* Manage content with Netlify CMS
+* Manage content with Decap CMS
 
 The email address associated with your Netlify account will receive an email inviting you as an
 Identity user - click Accept in the email to set your new password, then navigate to `/admin` on
@@ -48,7 +42,7 @@ Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, an
 
 ## Authenticating without Netlify Identity
 
-Netlify provides basic OAuth so you can log in to Netlify CMS with your GitHub profile directly if
+Netlify provides basic OAuth so you can log in to Decap CMS with your GitHub profile directly if
 you prefer not to use Netlify Identity. To do so, go to [the GitHub developer application
 screen](https://github.com/settings/developers) and **register new application**. The Authorization
 callback URL you'll need to enter is `https://api.netlify.com/auth/done`. 
